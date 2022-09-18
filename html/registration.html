@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/registration.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="burger" id="burger">
+                <span>&#9776;</span>
+            </div>
+            <div class="logo"><a href="../index.html"><img src="../picturres/logo.png" alt="logo"></a></div>
+            <div class="nav_links" id="nav_links">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="shop.html">shop</a></li>
+                    <li><a href="contact-us.html">Contact us</a></li>
+                    <li class="active"><a href="registration.html">Registration</a></li>
+                </ul>
+            </div>            
+            <div class="profile-wrapper">
+                <img src="../picturres/profile-icon.png" alt="profile-icon">
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="container">
+            <div class="registration-area">
+                <div class="modal__wrapper" id="modal__wrapper">
+                    <div class="modal">
+                        <h3 class="modal-title">შეტყობინება get home-ის გან</h3>
+                        <button class="close__button" id="close__button">&times;</button>
+                        <p>გილოცავთ, თქვენ წარმატებით გაიარეთ რეგისტრაცია. გმადლობთ, რომ იყენებთ ჩვენს საიტს</p>                         
+                    </div>
+                </div>
+                <div class="registration">
+                    <div class="first-laier">
+                        <div class="username">
+                            <input type="text" name="username" id="username" placeholder="სახელი">
+                        </div>
+                    </div>
+                    <div class="second-laier">
+                        <div class="email">
+                            <input type="email" name="email" placeholder="ემაილი">
+                        </div>
+                        <div class="password">
+                            <input type="password" name="password" placeholder="პაროლი">
+                        </div>
+                    </div>
+                    <div class="therth-laier">
+                        <p>არიჩიეთ გადახდის მეთოდი</p>
+                        <div class="radio">
+                            <div class="option">
+                                <label for="option1">საქართველოს ბანკი</label>
+                                <input type="radio" id="option1" name="bank">
+                            </div>
+                            <div class="option">
+                                <label for="option2">ვიზა ბანკი</label>
+                                <input type="radio" id="option2" name="bank">
+                            </div>
+                            <div class="option">
+                                <label for="option3">კრედო ბანკი</label>
+                                <input type="radio" id="option3" name="bank">
+                            </div>                            
+                        </div>                       
+                    </div>
+                    <div class="forth-laier">
+                        <div class="card-username">
+                            <input type="password" name="username" placeholder="პლასტიკური ბარათის პაროლი">
+                        </div>
+                    </div>
+                    <div class="fifth-laier">
+                        <div class="submit_button" id="submit_button">
+                            <input type="submit" value="დასრულება" id="btn">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/apps.js"></script>
+</body>
+</html>
